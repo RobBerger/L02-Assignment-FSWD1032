@@ -14,9 +14,14 @@ for (let value of numList){
 }
 console.log(numListTotal);
 
-let contact: object;
-contact = {
+let contact = {
     contactName: "Bob",
     dob: "02/02/94",
     role: "student"
 };
+
+let { contactName, dob, role } = contact;
+
+console.log(contactName);
+console.log(dob);
+console.log(role);
