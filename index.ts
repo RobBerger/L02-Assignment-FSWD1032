@@ -12,5 +12,4 @@ let numListTotal: number = 0;
 for (let value of numList){
    numListTotal = numListTotal + value;
 }
-
 console.log(numListTotal);
