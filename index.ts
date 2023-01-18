@@ -22,6 +22,6 @@ let contact = {
 
 let { contactName, dob, role } = contact;
 
-console.log(contactName);
-console.log(dob);
-console.log(role);
+let templateString: string = `${contactName} is a ${role} learning to code and was born on ${dob}`;
+
+console.log(templateString);
