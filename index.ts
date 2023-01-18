@@ -13,3 +13,10 @@ for (let value of numList){
    numListTotal = numListTotal + value;
 }
 console.log(numListTotal);
+
+let contact: object;
+contact = {
+    contactName: "Bob",
+    dob: "02/02/94",
+    role: "student"
+};
